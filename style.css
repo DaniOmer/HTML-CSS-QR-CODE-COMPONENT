@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#wrapper {
+body {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -13,7 +13,6 @@
     background: hsl(212, 45%, 89%);
 }
 
-
 /***************** QR-CODE section ************/
 .qr-code{
     width: 80%;
@@ -22,6 +21,7 @@
     background: hsl(0, 0%, 100%);
     border-radius: 1.2rem;
     margin-bottom: 1rem;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
 }
 
 .qr-code img{
