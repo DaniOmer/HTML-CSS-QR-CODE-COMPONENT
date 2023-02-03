@@ -51,12 +51,27 @@
 
 /********** Attribution section ***************/
 .attribution {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+
+/********** MEDIA QUERIES FOR SMALL DEVICES **************/
+@media screen and (max-width:375px) {
+    .attribution {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .attribution a {
+        margin-bottom: 0.5rem;
+        display: inline-block;
+    }
 }
 
 
